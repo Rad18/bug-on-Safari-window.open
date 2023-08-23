@@ -1,0 +1,5 @@
+Wrapping your window.open(url, '_blank') line of code in the async function with a setTimeout works as well,
+
+setTimeout(() => {
+    window.open(url, '_blank');
+})
